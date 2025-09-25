@@ -55,17 +55,11 @@
         }
 
         if (empty($errores)) {
-            echo '
-
-datos validos
-';
+            echo 'datos validos';
         } else {
-            echo '
-';
-            echo implode('
-', $errores);
-            echo '
-';
+            echo '';
+            echo implode('', $errores);
+            echo '';
         }
     }
 ?>
