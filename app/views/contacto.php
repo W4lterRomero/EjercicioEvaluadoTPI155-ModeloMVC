@@ -17,23 +17,23 @@
         <a class="nav-link " href="contacto"> Mi contacto BRR</a>
     </nav>
 
-    <form action="" method = "POST">
+    <form method = "POST">
         <label for="">Correo</label>
-        <input type="text" value = "correo" name = "correo">
+        <input type="text" name = "correo">
         <label for="">Telefono</label>
-        <input type="text" value = "telefono" name = "telefono" max="8">
+        <input type="text"  name = "telefono" max="8">
         <label for="">Número de DUI</label>
-        <input type="text" value = "dui" name = "dui" max = "8">
+        <input type="text"  name = "dui" max = "8">
         <input type="button" value="submit" name = "submit">
     </form>
 
     <?php
 
-        $validadorCorreo = '/^[A-Za-z0-9._%+\-]+@[A-Za-z0-9._%+\-]+\[A-Z,a-z}';
+        $validadorCorreo = '/^[A-Za-z0-9._%+\-]+@[A-Za-z0-9._%+\-]+\[A-Z,a-z`]{2,}$/';
 
         
 
-        if($_SERVER["REQUEST_METHOD"] == "POST" && !isset($_POST["correo"]) && !isset($_POST["telefono"]) && !isset($_POST["dui"])){
+        if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["correo"]) && isset($_POST["telefono"]) && isset($_POST["dui"])){
             $correo = $_POST["correo"];
             $telefono = $_POST["telefono"];
             $dui = $_POST["dui"];
