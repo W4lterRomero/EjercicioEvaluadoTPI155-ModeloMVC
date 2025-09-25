@@ -17,6 +17,10 @@
         <a class="nav-link " href="/app/views/miContactoView.php"> Mi contacto BRR</a>
     </nav>
 
-    
+    <form action="" method = "POST">
+        <input type="text" value = "correo" name = "correo">
+        <input type="text" value = "telefono" name = "telefono">
+        <input type="text" value = "dui" name = "dui">
+    </form>
 </body>
 </html>

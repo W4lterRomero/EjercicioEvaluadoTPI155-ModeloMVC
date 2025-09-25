@@ -18,5 +18,10 @@
     </nav>
     <h1>Mi lenguaje favorito</h1>
     <p>Mi lenguaje favorito es el C# porque fué el primero que conocí, aparte, tiene garbaje collector, tiene configuracion de punteros, NO es un lenguaje complicado</p>
+    <br>
+    <h2>entre otros lenguajes que uso</h2>
+    <p>entre otros lenguajes que uso serían python,  javascript, generalmente
+        python lo uso para crear scripts/bots de trading, javascrip lo utilizo a l ahora de crear paginas web
+    </p>
 </body>
 </html>
