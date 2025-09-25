@@ -21,7 +21,7 @@ Route::get("/inicio/:flag", function($flag){
 Route::get("/HomeView", [HomeController::class,"index"]);
 Route::get("/inicio", [HomeController::class,"inicio"]);
 Route::get("/lenguaje", [HomeController::class,"lenguaje"]);
-Route::get("/contacto", [HomeController::class,"contacto"]);
+Route::post("/contacto", [HomeController::class,"contacto"]);
 
 
 

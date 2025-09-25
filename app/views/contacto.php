@@ -26,7 +26,7 @@
         <input type="text" name="telefono" max="8">
         <label for="">Número de DUI</label>
         <input type="text" name="dui" max="8">
-        <input type="button" value="submit" name="submit">
+        <input type="submit" value="submit" name="submit">
     </form>
 
     <?php
