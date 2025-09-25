@@ -5,8 +5,18 @@ namespace app\controllers;
 
 class HomeController{
     public function index(){
-        echo $this->view("HomeView", ['title' => 'MiVista']);
+        return $this->view("HomeView", ['title' => 'MiVista']);
     }
+    public function inicio(){
+        return $this->view("inicio", ['title' => 'Ejercicio evaluado vista']);
+    }
+    public function lenguaje(){
+        return $this->view("lenguaje", ['title' => 'MiVista']);
+    }
+    public function contacto(){
+        return $this->view("contacto", ['title' => 'MiVista']);
+    }
+
 /*     public function view(){
         return "funcion view";
     } */

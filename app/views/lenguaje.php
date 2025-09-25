@@ -10,11 +10,11 @@
 <body>
     <nav
         class="nav justify-content-center  ">
-        <a class="nav-link active" href="/app/views/HomeView.php" aria-current="page">Pagina principal</a>
-        <a class="nav-link" href="/app/views/InicioView.php">Mi información</a>
-        <a class="nav-link " href="/app/views/miLenguajeView.php"> Lenguaje Favorito</a>
+        <a class="nav-link active" href="HomeView" aria-current="page">Pagina principal</a>
+        <a class="nav-link" href="inicio">Mi información</a>
+        <a class="nav-link " href="lenguaje"> Lenguaje Favorito</a>
         
-        <a class="nav-link " href="/app/views/miContactoView.php"> Mi contacto BRR</a>
+        <a class="nav-link " href="contacto"> Mi contacto BRR</a>
     </nav>
     <h1>Mi lenguaje favorito</h1>
     <p>Mi lenguaje favorito es el C# porque fué el primero que conocí, aparte, tiene garbaje collector, tiene configuracion de punteros, NO es un lenguaje complicado</p>
